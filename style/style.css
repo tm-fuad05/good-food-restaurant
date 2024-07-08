@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* font-family: "Work Sans", sans-serif; */
 #hero{
-    height: 634px;
+    height: 500px;
     background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), 
     url("../assets/hero-bg.png");
     background-size: cover;
@@ -54,19 +54,135 @@ opacity: 0.7;
 /* margin-bottom: 10px; */
 
 }
-.btn{
+.btn {
     padding: 17px 25px;
     border-radius: 8px;
 background: rgb(82, 195, 3);
 border: none;
 text-align: center;
-margin-top:15px;
+margin-top:  25px;
 color: rgb(255, 255, 255);
 font-family: Work Sans;
 font-size: 5pxpx;
-font-weight: 300;
+font-weight: 500;
 /* line-height: 23px; */
 letter-spacing: 0%;
 text-align: center;
 }
+.btn:hover{
+    background-color: green;
+cursor: pointer;
+}
+.bg{
+    margin:90px 0;
+}
+.box{
+    width: 939px;px;
+    margin: 0 auto;
+    
+    
+}
+.subtit{
+    width: 491px;
+    margin: 0 auto;
+    
+    margin-bottom: 50px;
+}
+
+.box .subtit .subtitle2{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+/* font-size: 24px; */
+font-weight: 500;
+/* line-height: 28px; */
+letter-spacing: 0%;
+text-align: center;
+
+}
+.box .subtit .title2{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 600px;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card{
+    width: 300px;
+}
+.card .img img{
+    width: 300px;
+}
+.card-content{
+    text-align: center;
+}
+.card .card-content .shop{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 19px;
+font-weight: 600;
+margin: 25px 0;
+letter-spacing: 0%;
+
+}
+.card .card-content .shop span{
+    border-radius: 8px;
+padding: 10px 20px;
+background: rgba(82, 195, 3, 0.15);
+}
+.card .card-content .discount{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+}
+.card .card-content .card-co-des{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.card-container{
+    width: px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   /* gap: 30px; */
+}
+.btn-card {
+    text-align: center;
+    margin: 40px 0;
+}
+.btn-card button {
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 15px 27px;
+border-radius: 8px;
+
+background: rgb(82, 195, 3);
+border: none;
+cursor: pointer;
+
+
+}
+.btn-card button:hover{
+    background-color: green;
+
+}
+
+
 
