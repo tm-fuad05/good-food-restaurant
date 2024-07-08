@@ -72,13 +72,14 @@ font-weight: 500;
 /* line-height: 23px; */
 letter-spacing: 0%;
 text-align: center;
+cursor: pointer;
 }
 .btn:hover{
     background-color: green;
-cursor: pointer;
+
 }
 .bg{
-    margin:90px 0;
+    margin:60px 0;
 }
 .box{
     width: 939px;px;
@@ -128,12 +129,14 @@ font-size: 19px;
 font-weight: 600;
 margin: 25px 0;
 letter-spacing: 0%;
+/* cursor: pointer; */
 
 }
 .card .card-content .shop span{
     border-radius: 8px;
 padding: 10px 20px;
 background: rgba(82, 195, 3, 0.15);
+/* cursor: pointer; */
 }
 .card .card-content .discount{
     color: rgb(16, 16, 16);
