@@ -16,6 +16,7 @@ a{
     justify-content: center ;
     align-items: center;
     width:100%;
+    transition: all 2s;
 }
 *{
     margin: 0px;
@@ -75,9 +76,11 @@ font-weight: 500;
 letter-spacing: 0%;
 text-align: center;
 cursor: pointer;
+transition: all 0.5s;
 }
 .btn:hover{
     background-color: green;
+    
 
 }
 .bg{
@@ -185,11 +188,13 @@ border-radius: 8px;
 background: rgb(82, 195, 3);
 border: none;
 cursor: pointer;
+transition: all 0.5s;
 
 
 }
 .btn-card button:hover{
     background-color: green;
+    
 
 }
 
