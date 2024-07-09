@@ -10,6 +10,7 @@ a{
     url("../assets/hero-bg.png");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center ;
     align-items: center;
@@ -83,7 +84,7 @@ cursor: pointer;
 }
 .box{
     width: 939px;px;
-    margin: 0 auto;
+    margin: 0  auto;
     
     
 }
